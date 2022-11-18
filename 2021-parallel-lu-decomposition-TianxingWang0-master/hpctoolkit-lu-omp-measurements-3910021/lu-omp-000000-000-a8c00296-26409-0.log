@@ -1,0 +1,20 @@
+fnbounds: /projects/comp422/pkgs-src/spack-2021/opt/spack/linux-rhel7-x86_64/gcc-7.3.0/hpctoolkit-master-m73yltvkorlqire3prcv3wfc4x3sgi6v/libexec/hpctoolkit/hpcfnbounds2
+[26409, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[26409, N]: NULL (0): ip = 0x7f798f550254 (0xd254), load module = /projects/comp422/pkgs-src/spack-2021/opt/spack/linux-rhel7-x86_64/gcc-7.3.0/hpctoolkit-master-m73yltvkorlqire3prcv3wfc4x3sgi6v/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[26409, N]: NULL (0): ip = 0x7f798fd57529 (0x3529), load module = /projects/comp422/pkgs-src/spack-2021/opt/spack/linux-rhel7-x86_64/gcc-7.3.0/hpctoolkit-master-m73yltvkorlqire3prcv3wfc4x3sgi6v/lib/hpctoolkit/libhpcrun_audit.so.0.0.0 | lip 
+[26409, N]: NULL (0): ip = 0x7f798e0b7472 (0x22472), load module = /usr/lib64/libc-2.17.so | lip 
+[26409, N]: NULL (0): ip = 0x7f798f54fe4e (0xce4e), load module = /projects/comp422/pkgs-src/spack-2021/opt/spack/linux-rhel7-x86_64/gcc-7.3.0/hpctoolkit-master-m73yltvkorlqire3prcv3wfc4x3sgi6v/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[26409, N]: NULL (0): ip = 0x401ba9 (0x401ba9), load module = /home/tw44/2021-parallel-lu-decomposition-TianxingWang0/lu-omp | lip 
+[26409, N]: NULL (0): ip = 0x0 (0x0), load module = (null) | lip 
+[26409, N]: -- end backtrace ------------------------------------
+
+MEMORY: segment size: 4.0 meg, num segments: 17, total allocation: 68.0 meg, reclaims: 0
+MEMORY: total freeable: 0.0 meg, total non-freeable: 4.7 meg, malloc failures: 0
+UNWIND ANOMALIES: total: 278232 errant: 1, total-frames: 285619, total-libunwind-fails: 0
+ACC SUMMARY:
+         accelerator trace records: 0 (processed: 0, dropped: 0)
+         accelerator samples: 0 (recorded: 0, dropped: 0)
+SAMPLE ANOMALIES: blocks: 65 (async: 65, dlopen: 0), errors: 1 (segv: 0, soft: 1)
+SUMMARY: samples: 278232 (recorded: 278167, blocked: 65, errant: 1, trolled: 0, yielded: 0),
+         frames: 285619 (trolled: 0)
+         intervals: 1320 (suspicious: 0)
